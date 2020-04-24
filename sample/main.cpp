@@ -5,7 +5,7 @@ using namespace std;
 #define ALL(c) (c).begin(), (c).end()
 #define RALL(a) (a).rbegin(), (a).rend()
 #define UNIQ(c) (c).erase(unique(ALL((c))), end((c)))
-const int INF = 0x3f3f3f3f;
+// const int INF = 0x3f3f3f3f;
 typedef long long ll;
 typedef vector<int> VI;
 typedef vector<ll> VL;
@@ -17,7 +17,7 @@ typedef pair<ll,ll> PL;
 
 int main(void){
     
-	
+	cout << "working";
 
     return 0;
 }
