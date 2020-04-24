@@ -1,0 +1,66 @@
+# Project: Project1
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe -D__DEBUG__
+CC   = gcc.exe -D__DEBUG__
+WINDRES = windres.exe
+RES  = 
+OBJ  = main.o tank.o bullet.o bot.o map.o network.o mySocket.o machine.o etc.o construction.o GUI.o panel.o finish.o $(RES)
+LINKOBJ  = main.o tank.o bullet.o bot.o map.o network.o mySocket.o machine.o etc.o construction.o GUI.o panel.o finish.o $(RES)
+LIBS =  -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32 -lwinmm -lws2_32 -lwsock32  -g3 
+INCS =  -I"C:/Dev-Cpp/include" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include" 
+BIN  = tank-project.exe
+CXXFLAGS = $(CXXINCS)   -g3
+CFLAGS = $(INCS)   -g3
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before tank-project.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "tank-project.exe" $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+tank.o: tank.cpp
+	$(CPP) -c tank.cpp -o tank.o $(CXXFLAGS)
+
+bullet.o: bullet.cpp
+	$(CPP) -c bullet.cpp -o bullet.o $(CXXFLAGS)
+
+bot.o: bot.cpp
+	$(CPP) -c bot.cpp -o bot.o $(CXXFLAGS)
+
+map.o: map.cpp
+	$(CPP) -c map.cpp -o map.o $(CXXFLAGS)
+
+network.o: network.cpp
+	$(CPP) -c network.cpp -o network.o $(CXXFLAGS)
+
+mySocket.o: mySocket.cpp
+	$(CPP) -c mySocket.cpp -o mySocket.o $(CXXFLAGS)
+
+machine.o: machine.cpp
+	$(CPP) -c machine.cpp -o machine.o $(CXXFLAGS)
+
+etc.o: etc.cpp
+	$(CPP) -c etc.cpp -o etc.o $(CXXFLAGS)
+
+construction.o: construction.cpp
+	$(CPP) -c construction.cpp -o construction.o $(CXXFLAGS)
+
+GUI.o: GUI.cpp
+	$(CPP) -c GUI.cpp -o GUI.o $(CXXFLAGS)
+
+panel.o: panel.cpp
+	$(CPP) -c panel.cpp -o panel.o $(CXXFLAGS)
+
+finish.o: finish.cpp
+	$(CPP) -c finish.cpp -o finish.o $(CXXFLAGS)

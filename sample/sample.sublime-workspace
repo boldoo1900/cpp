@@ -1,0 +1,405 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"st",
+				"st_compare"
+			],
+			[
+				"temp",
+				"tempI"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.cpp",
+			"settings":
+			{
+				"buffer_size": 1020,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inputf.in",
+			"settings":
+			{
+				"buffer_size": 38,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "outputf.in",
+			"settings":
+			{
+				"buffer_size": 32,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/CPP_RUN.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/CPP_RUN.sublime-build",
+					""
+				],
+				[
+					"Packages/User/CPP_RUN.sublime-build",
+					"Run in Terminal"
+				]
+			],
+			[
+				"Packages/User/CPP_RUN.sublime-build",
+				"Run in Terminal"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/boldoo/Projects/c++/sample",
+		"/Users/boldoo/Projects/c++/sample/library"
+	],
+	"file_history":
+	[
+		"/Users/boldoo/Projects/c++/sample/library/template.cpp",
+		"/Users/boldoo/Projects/c++/sample/atcoder/d-digits-parade.cpp",
+		"/Users/boldoo/Projects/c++/sample/test.cpp",
+		"/Users/boldoo/Projects/c++/sample/main.cpp",
+		"/Users/boldoo/Projects/c++/sample/library/test.cpp",
+		"/Users/boldoo/Projects/c++/sample/main2.cpp",
+		"/Users/boldoo/Projects/c++/sample/untitled.cpp",
+		"/Users/boldoo/Projects/c++/sample/atcoder/c-anagram-string.cpp",
+		"/Users/boldoo/Projects/c++/sample/atcoder/c_rectangle_cutting.cpp",
+		"/Users/boldoo/Projects/c++/sample/library/usage_func.h",
+		"/Users/boldoo/Projects/c++/sample/readme.txt",
+		"/Users/boldoo/Projects/c++/sample/main",
+		"/Users/boldoo/Projects/c++/sample/c-anagram-string.cpp",
+		"/Users/boldoo/Projects/c++/sample/atcoder/c-anti-division.cpp",
+		"/Users/boldoo/Projects/c++/sample/atcoder/card_order.cpp",
+		"/Users/boldoo/Projects/c++/sample/outputf.in",
+		"/Users/boldoo/Projects/c++/sample/outputs.in"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/boldoo/Projects/c++/sample"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1020,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								854,
+								854
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 146.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "inputf.in",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 38,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "outputf.in",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 32,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.761695537021,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.463854813649,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 164.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		]
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 182.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
