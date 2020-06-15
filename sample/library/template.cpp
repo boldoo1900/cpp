@@ -23,6 +23,10 @@ typedef pair<ll,ll> PL;
 //ll lin() { ll x; scanf("%lld", &x); return x; }
 //void printfv(VI a){ int n = a.size(); FOR(i, n) cout << a[i] << " "; }
 
+
 int main(void){
+    std::ios_base::sync_with_stdio(false);
+    cin.tie(0);
+
     return 0;
 }

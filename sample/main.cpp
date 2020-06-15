@@ -3,24 +3,30 @@
 using namespace std;
 
 #define FOR(i,n) for(int i=0; i<n; ++i)
-typedef long long ll;
+#define FORR(i,a,n) for(int i=a; i<n; ++i)
+#define ALL(c) (c).begin(), (c).end()
+#define RALL(a) (a).rbegin(), (a).rend()
+#define UNIQ(c) (c).erase(unique(ALL((c))), end((c)))
 
-int n, m = 100;
-ll a[100000];
+const int INF = 0x3f3f3f3f;
+
+typedef long long ll;
+typedef vector<int> VI;
+typedef vector<ll> VL;
+typedef vector<VI> VVI;
+typedef vector<VL> VVL;
+typedef vector<string> VS;
+typedef pair<int,int> PI;
+typedef pair<ll,ll> PL;
+ 
+//int in() { int x; scanf("%d", &x); return x; }
+//ll lin() { ll x; scanf("%lld", &x); return x; }
+//void printfv(VI a){ int n = a.size(); FOR(i, n) cout << a[i] << " "; }
+
 
 int main(void){
-    cin >> n;
-    
-    ll ans = 0;
-    FOR(i, n){
-        cin >> a[i];
-    }
-    sort(a, a+n);
-    
-    FOR(i, n){
-		ans += (a+n) - lower_bound(a, a+n, m - a[i]);
-    }
-    
-    cout << ans;
+    std::ios_base::sync_with_stdio(false);
+    cin.tie(0);
+
     return 0;
 }
