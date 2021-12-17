@@ -1,4 +1,5 @@
-#include<bits/stdc++.h>
+// #include<bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
@@ -27,6 +28,11 @@ int main(void){
     std::ios_base::sync_with_stdio(false);
     cin.tie(0);
 
+    int i;
+    cin >> i;
+    cout << "test123" << i;
 
     return 0;
 }
+
+
