@@ -9,7 +9,7 @@
   
 - mac settings 
   CPP_RUN file location on mac
-/Users/boldoo/Library/Application Support/Sublime Text 3/Packages/User
+/Users/{Username}/Library/Application Support/Sublime Text 3/Packages/User
 
 gcc error (File Not Found Error while including bits/stdc++.h)
 

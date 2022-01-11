@@ -114,28 +114,28 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/boldoo/Projects/c++/sample",
-		"/Users/boldoo/Projects/c++/sample/library"
+		"/Users/{UserName}/Projects/c++/sample",
+		"/Users/{UserName}/Projects/c++/sample/library"
 	],
 	"file_history":
 	[
-		"/Users/boldoo/Projects/c++/sample/library/template.cpp",
-		"/Users/boldoo/Projects/c++/sample/atcoder/d-digits-parade.cpp",
-		"/Users/boldoo/Projects/c++/sample/test.cpp",
-		"/Users/boldoo/Projects/c++/sample/main.cpp",
-		"/Users/boldoo/Projects/c++/sample/library/test.cpp",
-		"/Users/boldoo/Projects/c++/sample/main2.cpp",
-		"/Users/boldoo/Projects/c++/sample/untitled.cpp",
-		"/Users/boldoo/Projects/c++/sample/atcoder/c-anagram-string.cpp",
-		"/Users/boldoo/Projects/c++/sample/atcoder/c_rectangle_cutting.cpp",
-		"/Users/boldoo/Projects/c++/sample/library/usage_func.h",
-		"/Users/boldoo/Projects/c++/sample/readme.txt",
-		"/Users/boldoo/Projects/c++/sample/main",
-		"/Users/boldoo/Projects/c++/sample/c-anagram-string.cpp",
-		"/Users/boldoo/Projects/c++/sample/atcoder/c-anti-division.cpp",
-		"/Users/boldoo/Projects/c++/sample/atcoder/card_order.cpp",
-		"/Users/boldoo/Projects/c++/sample/outputf.in",
-		"/Users/boldoo/Projects/c++/sample/outputs.in"
+		"/Users/{UserName}/Projects/c++/sample/library/template.cpp",
+		"/Users/{UserName}/Projects/c++/sample/atcoder/d-digits-parade.cpp",
+		"/Users/{UserName}/Projects/c++/sample/test.cpp",
+		"/Users/{UserName}/Projects/c++/sample/main.cpp",
+		"/Users/{UserName}/Projects/c++/sample/library/test.cpp",
+		"/Users/{UserName}/Projects/c++/sample/main2.cpp",
+		"/Users/{UserName}/Projects/c++/sample/untitled.cpp",
+		"/Users/{UserName}/Projects/c++/sample/atcoder/c-anagram-string.cpp",
+		"/Users/{UserName}/Projects/c++/sample/atcoder/c_rectangle_cutting.cpp",
+		"/Users/{UserName}/Projects/c++/sample/library/usage_func.h",
+		"/Users/{UserName}/Projects/c++/sample/readme.txt",
+		"/Users/{UserName}/Projects/c++/sample/main",
+		"/Users/{UserName}/Projects/c++/sample/c-anagram-string.cpp",
+		"/Users/{UserName}/Projects/c++/sample/atcoder/c-anti-division.cpp",
+		"/Users/{UserName}/Projects/c++/sample/atcoder/card_order.cpp",
+		"/Users/{UserName}/Projects/c++/sample/outputf.in",
+		"/Users/{UserName}/Projects/c++/sample/outputs.in"
 	],
 	"find":
 	{
@@ -171,7 +171,7 @@
 	"folders":
 	[
 		{
-			"path": "/Users/boldoo/Projects/c++/sample"
+			"path": "/Users/{UserName}/Projects/c++/sample"
 		}
 	],
 	"groups":
